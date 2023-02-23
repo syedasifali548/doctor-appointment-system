@@ -7,7 +7,7 @@ const DoctorList = ({doctor}) => {
   const navigate = useNavigate()
   return (
     <>
-    <Col md={6} sm={6} xs={12}>
+    <Col md={6} sm={6} xs={12} mt={3}>
          <div className="doctor_list_wrapper"
          onClick={()=>navigate(`/doctor/book-appointment/${doctor._id}`)}
          >
